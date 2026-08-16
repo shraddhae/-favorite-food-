@@ -72,24 +72,6 @@
     <li><b>Slow Cook:</b> Place the pot over a hot tawa (griddle) and let it cook on very low heat for 15-20 minutes on 'Dum'.</li>
     <li><b>Serve:</b> Turn off the heat and wait 10 minutes before opening the pot. Serve the hot, aromatic biryani with raita!</li>
   </ul>
-
-  <div class="controls">
-    <button id="toggleTimerBtn">Next Step</button>
-    <div id="tipText">Ready to cook? Click "Next Step"! 👨‍🍳</div>
-  </div>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const toggleBtn = document.getElementById("toggleTimerBtn");
-      const steps = document.querySelectorAll(".steps-list li");
-      const tipText = document.getElementById("tipText");
-
-      let currentStep = 0;
-
-      toggleBtn.addEventListener("click", () => {
-        // Remove highlight from previous steps
-        steps.forEach(step => step.classList.remove("highlight"));
-
     
 
 </body>
