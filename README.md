@@ -124,20 +124,7 @@ you can eat whenever you want, it also refreshes the mood and gives peace to the
         // Remove highlight from previous steps
         steps.forEach(step => step.classList.remove("highlight"));
 
-        // Highlight current step
-        if (currentStep < steps.length) {
-          steps[currentStep].classList.add("highlight");
-          steps[currentStep].scrollIntoView({ behavior: 'smooth', block: 'center' });
-          
-          tipText.innerText = `Focusing on Step ${currentStep + 1} of ${steps.length}! 🍳`;
-          currentStep++;
-        } else {
-          currentStep = 0;
-          tipText.innerText = "All steps completed! Enjoy your delicious Dum Biryani! 🎉";
-        }
-      });
-    });
-  </script>
+    
 
 </body>
 </html>
