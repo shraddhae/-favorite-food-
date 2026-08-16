@@ -1,38 +1,4 @@
-# -favorite-food-
-you can eat whenever you want, it also refreshes the mood and gives peace to the heart 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Interactive Royal Biryani Recipe</title>
-<style>
-  body {
-    background-color: #2c040d; /* Royal Maroon */
-    color: #fce4b3; /* Ghee Gold */
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    max-width: 650px;
-    margin: auto;
-    line-height: 1.6;
-  }
-  h1 { 
-    text-align: center; 
-    color: #ffd700; 
-    border-bottom: 2px dashed #ffd700; 
-    padding-bottom: 10px; 
-  }
-  img { 
-    width: 100%; 
-    max-width: 350px; 
-    border: 4px solid #ffd700; 
-    border-radius: 10px; 
-    display: block; 
-    margin: 20px auto; 
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
-  }
-  
-  /* Recipe List Styling */
+ /* Recipe List Styling */
   .steps-list { 
     list-style-type: decimal; 
     background: #400916; 
